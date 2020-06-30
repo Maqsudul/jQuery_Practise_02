@@ -1,0 +1,79 @@
+h4{
+    text-decoration: underline;
+}
+div{
+    height: 200px;
+    width: 250px;
+    border: 2px solid blue;
+    margin: 5px;
+    float: left;
+    overflow: hidden;
+}
+h5{ 
+    margin-bottom: 100px;
+    vertical-align: middle;
+    font-size: 24px;
+}
+.come h5{
+    color: aqua;
+    text-align: center;
+    vertical-align: middle;
+  
+}
+.left h5{
+    color: blueviolet;
+    text-align: center;
+    vertical-align: middle;
+}
+.checked h5{
+    color: greenyellow;
+    text-align: center;
+    vertical-align: middle; 
+}
+.come, .left, .checked{
+    display: none;
+}
+div .dot{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: orangered;
+}
+div #first, div #second, div #third{
+    width: 73px;
+    height: 73px;
+    border: none;
+    display: none;
+}
+div #first{
+    background-color: blue;
+}
+div #second{
+    background-color: orangered; 
+}
+div #third{
+    background-color: green;
+}
+div #slide-ini{
+    padding: 5px;
+    background-color: darkturquoise;
+    width: 240px;
+    height: 30px;
+    margin: 0;
+    border: none;
+}
+div #slide{
+    padding: 5px;
+    background-color: aqua;
+    width: 240px;
+    height: 90px;
+    margin: 0;
+    border: none;
+    display: none;
+}
+.hide-me, .up_down{
+    border: none;
+}
+
